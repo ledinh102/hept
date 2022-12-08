@@ -1,0 +1,51 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin: 24px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input {
+    width: 24px;
+    margin: 8px 0;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 2px solid #111;
+    text-align: right;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 100px;
+    padding: 12px 16px;
+    border: none;
+    background-color: #BCEAD5;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:first-of-type {
+    margin-right: 40px;
+}
+
+.answer {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
